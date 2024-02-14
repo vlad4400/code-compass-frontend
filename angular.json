@@ -28,6 +28,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -72,7 +74,8 @@
               "browserTarget": "code-compass-frontend:build:production"
             },
             "development": {
-              "browserTarget": "code-compass-frontend:build:development"
+              "browserTarget": "code-compass-frontend:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
